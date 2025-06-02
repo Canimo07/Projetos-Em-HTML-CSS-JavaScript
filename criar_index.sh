@@ -1,0 +1,39 @@
+#!/bin/bash
+
+cat > index.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Projetos HTML, CSS e JS</title>
+</head>
+<body>
+  <h1>Projetos disponíveis</h1>
+  <ul>
+    <li><a href="/01%20-%20Formul%C3%A1rio%20de%20envia%20dados/">01 - Formulário de envia dados</a></li>
+    <li><a href="/02%20-%20Slider/">02 - Slider</a></li>
+    <li><a href="/03%20-%20Mensagem%20de%20cookies/">03 - Mensagem de cookies</a></li>
+    <li><a href="/04%20-%20Hide%20%26%20Show%20Password/">04 - Hide & Show Password</a></li>
+    <li><a href="/06%20-%20sidebar/">06 - Sidebar</a></li>
+    <li><a href="/07%20-%20efeito%20snapping/">07 - Efeito Snapping</a></li>
+    <li><a href="/08%20-%20gradiente%20em%20texto/">08 - Gradiente em texto</a></li>
+    <li><a href="/09%20-%20Efeito%20Flip/">09 - Efeito Flip</a></li>
+    <li><a href="/10%20-%20paralax%20com%20ondas/">10 - Parallax com ondas</a></li>
+    <li><a href="/11%20-%20menu%20transparente/">11 - Menu transparente</a></li>
+    <li><a href="/12%20-%20p%C3%A1gina%20de%20captura%20de%20leads/">12 - Página de captura de leads</a></li>
+    <li><a href="/13%20-%20navega%C3%A7%C3%A3o%20m%C3%A1gica/">13 - Navegação mágica</a></li>
+    <li><a href="/14%20-%20efeito%20rolagem%20com%20mouse%20hover/">14 - Efeito rolagem com mouse hover</a></li>
+    <li><a href="/15%20-%20Barra%20de%20busca%20personalizada/">15 - Barra de busca personalizada</a></li>
+    <li><a href="/16%20-%20efeito%20hover%20ripple/">16 - Efeito hover ripple</a></li>
+    <li><a href="/17%20-%20P%C3%A1gina%20de%20link/">17 - Página de link</a></li>
+    <li><a href="/18%20-%20portf%C3%B3lio%20personalizado/">18 - Portfólio personalizado</a></li>
+    <li><a href="/dropdown-list/">Dropdown List</a></li>
+    <li><a href="/formulario/">Formulário</a></li>
+    <li><a href="/menu-scroll/">Menu Scroll</a></li>
+    <li><a href="/janela-modal.html">Janela Modal</a></li>
+  </ul>
+</body>
+</html>
+EOF
+
+echo "index.html criado com sucesso!"
