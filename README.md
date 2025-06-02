@@ -15,7 +15,7 @@ docker pull monca07/projetos-git:latest
 
 2. Rode o container
 
-docker run -d -p 80:80 monca07/projetos-git:latest
+docker run -p 80:80 monca07/projetos-git:latest
 
 3. Abrir no navegador
 
